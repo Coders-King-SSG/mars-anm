@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.alien1 {
+    position: absolute;
+    top: 72%;
+    left: 47%;
+    animation: alien1move 1s infinite linear;
+}
+
+
+.alien2 {
+    position: absolute;
+    top: 66%;
+    left: 26%;
+    animation: alien2move 1s infinite linear;
+}
+
+.alien3 {
+    position: absolute;
+    top: 72%;
+    left: 67%;
+    animation: alien3move 1s infinite linear;
+}
+
+.spaceship-1 {
+    position: absolute;
+    right: -20%;
+    top: 10%;
+    animation: spaceship1moves infinite 30s;
+}
+
+.astronaut1 {
+    position: absolute;
+    left: -15%;
+    width: 99;
+    height: 165;
+    top: 0%;
+    animation: infinite 30s astronaut1move;animation-delay: 8.5s;
+}
+
+.astronaut2 {
+    position: absolute;
+    right: -20%;
+    top: 0%;
+    animation:  infinite 30s astronaut2move;
+    animation-delay: 17.5s;
+}
+
+/*! Animations Start here*/
+
+/*? Alien 1 */
+@keyframes alien1move {
+    0% {
+        top: 72%;
+        left: 47%;
+    }
+    50% {
+        top:68%;
+        left: 47%;
+    }
+    100% {
+        top: 72%;
+        left: 47%;
+    }
+}
+
+/*? Alien 2 */
+@keyframes alien2move {
+    0% {
+        top: 66%;
+        left: 26%;
+    }
+    50% {
+        top:60%;
+        left: 26%;
+    }
+    100% {
+        top: 66%;
+        left: 26%;
+    }
+}
+
+/*? Alien 3 */
+@keyframes alien3move {
+    0% {
+        top: 72%;
+        left: 67%;
+    }
+    50% {
+        top:68%;
+        left: 67%;
+    }
+    100% {
+        top: 72%;
+        left: 67%;
+    }
+}
+
+/*? Spaceship Animation */
+
+@keyframes spaceship1moves {
+    0% {
+        right: -20%;
+        top: 10%;
+    }
+    5% {
+        top: 20%;
+    }
+    10% {
+        top: 2%;
+    }
+    15% {
+        top: 10%;
+    }
+    20% {
+        top: 20%;
+    }
+    25% {
+        top: 5%;
+    }
+    30% {
+        top: 2%;
+    }
+    35% {
+        top: 10%;
+    }
+    40% {
+        top: 20%;
+    }
+    45% {
+        top: 10%;
+    }
+    50%{
+        right: 120%;
+        top: 2%;
+    }
+    55% {
+        top: 10%;
+    }
+    60% {
+        top: 20%;
+    }
+    65% {
+        top: 10%;
+    }
+    70% {
+        top: 2%;
+    }
+    75% {
+        top: 10%;
+    }
+    80% {
+        top: 20%;
+    }
+    85% {
+        top: 2%;
+    }
+    90% {
+        top: 10%;
+    }
+    95% {
+        top: 20%;
+    }
+    100% {
+        right: -20%;
+        top: 10%;
+    }
+}
+
+/*? Astronauts Moves*/
+
+@keyframes astronaut1move {
+    0% {
+        left: -20%;
+        top: 10%;
+    }
+    5% {
+        top: 20%;
+    }
+    10% {
+        top: 2%;
+    }
+    15% {
+        top: 10%;
+    }
+    20% {
+        top: 20%;
+    }
+    25% {
+        top: 10%;
+    }
+    30% {
+        top: 2%;
+    }
+    35% {
+        top: 10%;
+    }
+    40% {
+        top: 20%;
+    }
+    45% {
+        top: 10%;
+    }
+    50%{
+        left: 120%;
+        top: 2%;
+    }
+    55% {
+        top: 10%;
+    }
+    60% {
+        top: 20%;
+    }
+    65% {
+        top: 10%;
+    }
+    70% {
+        top: 2%;
+    }
+    75% {
+        top: 10%;
+    }
+    80% {
+        top: 20%;
+    }
+    85% {
+        top: 2%;
+    }
+    90% {
+        top: 10%;
+    }
+    95% {
+        top: 20%;
+    }
+    100% {
+        left: -20%;
+        top: 10%;
+    }
+}
+
+@keyframes astronaut2move {
+    0% {
+        right: -20%;
+        top: 10%;
+    }
+    5% {
+        top: 20%;
+    }
+    10% {
+        top: 2%;
+    }
+    15% {
+        top: 10%;
+    }
+    20% {
+        top: 20%;
+    }
+    25% {
+        top: 15%;
+    }
+    30% {
+        top: 2%;
+    }
+    35% {
+        top: 10%;
+    }
+    40% {
+        top: 20%;
+    }
+    45% {
+        top: 10%;
+    }
+    50%{
+        right: 120%;
+        top: 2%;
+    }
+    55% {
+        top: 10%;
+    }
+    60% {
+        top: 20%;
+    }
+    65% {
+        top: 10%;
+    }
+    70% {
+        top: 2%;
+    }
+    75% {
+        top: 10%;
+    }
+    80% {
+        top: 20%;
+    }
+    85% {
+        top: 2%;
+    }
+    90% {
+        top: 10%;
+    }
+    95% {
+        top: 20%;
+    }
+    100% {
+        right: -20%;
+        top: 10%;
+    }
+}
+
+.disco {
+    position: absolute;
+    top:406px;
+    right: 60px;
+}
+
+#disco {
+    width: 150px;
+    height: 150px;
+    box-shadow:15px 15px 20px #00f;
+    animation: infinite glow 2s;
+}
+
+#disco:after {
+    box-shadow:15px 15px 20px #00f;z-index: -10;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow:15px 15px 20px #00f;
+        z-index: -10;
+    }
+    20% {
+        box-shadow:15px 15px 20px rgb(0, 255, 255);
+        z-index: -10;
+    }
+    40% {
+        box-shadow:15px 15px 20px rgb(0, 255, 0);
+        z-index: -10;
+    }
+    50% {
+        width: 140px;
+        height: 140px;
+    }
+    60% {
+        box-shadow:15px 15px 20px rgb(255, 255, 0);
+        z-index: -10;
+    }
+    80% {
+        box-shadow:15px 15px 20px rgb(255, 0, 0);
+        z-index: -10;
+    }
+    100% {
+        box-shadow:15px 15px 20px #00f;
+        z-index: -10;
+    }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Mars Animation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div id="animation">
+        <!-- Aliens -->
+        <div class="alien1">
+            <img title="TX2O99" width="100px" data-toggle="tooltip" data-placement="top" height="160"
+                src="images/alian.png">
+        </div>
+        <div class="alien2">
+            <img title="AW6I11" width="100px" height="160" data-toggle="tooltip" data-placement="top"
+                src="https://studio.code.org/api/v1/animation-library/spritelab/2QJkd5Ya9YmFBKAnIwNVeRr0Om.Hroxu/category_characters/alienPink.png">
+        </div>
+        <div class="alien3">
+            <img title="SO2Z33" data-toggle="tooltip" data-placement="top" width="100px" height="160"
+                src="https://studio.code.org/api/v1/animation-library/spritelab/7iIxntwgHtrM.IEp6Ga2OFAGz1Ciq_y1/category_characters/alienYellow.png">
+        </div>
+        <!-- Spaceship -->
+        <div class="spaceship-1">
+            <img src="images/spaceship.png" title="Mangalyaan" data-toggle="tooltip" data-placement="top">
+        </div>
+        <!-- Astronauts -->
+        <div class="astronaut1">
+            <img title="Neil Armstrong" data-toggle="tooltip" data-placement="top" src="images/astronaut-1.png">
+        </div>
+        <div class="astronaut2">
+            <img title="Tigrace" data-toggle="tooltip" data-placement="top" src="images/astronaut-2.png">
+        </div>
+        <div class="disco">
+            <audio autoplay loop>
+                <source src="bensound-ukulele.mp3"/>
+            </audio>
+            <img title="DJ JukeBox" data-toggle="tooltip" data-placement="top" id="disco"
+                src="https://ouch-cdn.icons8.com/thumb/284/459c3135-07a8-4ffd-9d9f-d23ab9543518.png">
+        </div>
+        <script>
+            $(document).ready(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+        </script>
+    </div>
+</body>
+
+</html>
